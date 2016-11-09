@@ -9,17 +9,24 @@ def createQuotes():
     with open('quotes.txt','r',encoding="utf8") as f:
         data = ''.join(f.readline())
 
+    print(data)
 
-    phrase = re.search(r'"(.+?)"',data)
-    if  phrase:
-        quote = Quote.objects.create(quote = phrase)
-        quote.save()
+    phrase="Hi"
+    print( re.findall('"([^"]*)"',data))
+    phrase = data.split('"')
+
+    if phrase:
+        print("Phrase: True")
+        for q in phrase:
+            #print("Phrase: "+phrase)
+            quote = Quote.objects.create(quote = q)
+            quote.save()
  #   quote = Quote.objects.create(quote = "HI")
   #  quote.save()
 
 def printQuote(request):
-    if  Quote.objects.count() == 0:
-        createQuotes()
+    #if  Quote.objects.count() == 0:
+    createQuotes()
     chosenQuote = Quote.objects.order_by('?')
     template = loader.get_template('quoteDisplay.html')
     context = {
