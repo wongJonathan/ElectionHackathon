@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f760447e-e28d-4d85-bc4d-253db5f7e330" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TheButton/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TheButton/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TheButton/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TheButton/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TheButton/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TrumpBt/helloworld.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TrumpBt/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TrumpBt/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TrumpBt/TrumpBt/wsgi.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TrumpBt/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TrumpBt/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TrumpBt/settings.py" afterPath="$PROJECT_DIR$/TrumpBt/settings.py" />
     </list>
     <list id="96b3da96-117c-4c1c-8455-f4fefc976fc6" name="Revert: Add files via upload" comment="" />
     <ignored path="ElectionHackathon.iws" />
@@ -531,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478650213239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added migrations">
+      <created>1478651893567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478651893567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -590,7 +585,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Get Rid of the TheButton&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get Rid of the TheButton&#10;" />
+    <MESSAGE value="Added migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added migrations" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
