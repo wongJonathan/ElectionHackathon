@@ -18,5 +18,5 @@ from django.contrib import admin
 from .views import *
 
 urlpatterns = [
-    url(r'trump/', random, name='random'),
+    url(r'^$', printQuote, name='index'),
 ]

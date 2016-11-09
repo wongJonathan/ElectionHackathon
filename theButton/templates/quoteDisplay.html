@@ -11,8 +11,9 @@
     <div class="container" style="margin-bottom: 15px;">
         <h2>Trump Said:</h2>
 
-
-
+        {% for quote in chosen %}
+        <li>{{ quote.quote }}</li>
+        {% endfor %}
 
         <button type="submit" class="btn btn-primary"
                         style="margin-top: 10px;">Another</button>
